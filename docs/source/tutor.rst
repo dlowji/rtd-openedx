@@ -1,8 +1,11 @@
+.. _tutor:
+
+=============
 Cài đặt Tutor
 =============
 
-Nội dung được đề cập bài viết
------------------------------
+.. contents::
+   :local:
 
 .. toctree::
 
@@ -13,7 +16,7 @@ Nội dung được đề cập bài viết
    Cấu hình theme cho hệ thống
 
 Yêu cầu trước khi cài đặt
--------------------------
+==========================
  * Hệ điều hành được hỗ trợ: Tutor chạy tốt trên các hệ điều hành dựa trên UNIX 64-Bit. Tutor cũng có thể hoạt động tốt trên Windows (với `WSL 2 <https://learn.microsoft.com/en-us/windows/wsl/install>`_).
  * Phần mềm bắt buộc:
    * `Docker <https://docs.docker.com/engine/install/>`_: v18.06.0+
@@ -24,14 +27,14 @@ Yêu cầu trước khi cài đặt
    *	Cấu hình đề xuất: RAM 8 GB, 4 CPU, dung lượng đĩa 25 GB.
                                                                                                                                        
 Tiến hành cài đặt
------------------
+==================
 
 .. code-block:: python
 
     pip install "tutor[full]"
 
 Chạy Open edX
--------------
+==============
 Sau khi cài đặt thành công, chạy Open edX bằng câu lệnh: 
 
 .. code-block:: python
@@ -47,7 +50,7 @@ Kết quả của quá trình trên là một hệ thống Open edX hoàn chỉn
 Toàn bộ quá trình trên  có thể mất tới 10 phút trên một máy chủ có băng thông tốt. Lưu ý rằng môi trường host sẽ không bị ảnh hưởng theo bất kỳ cách nào, vì mọi thứ đều chạy bên trong Docker container. 
 
 Tạo mới tài khoản người dùng với quyền truy cập nhân viên và quản trị viên
---------------------------------------------------------------------------
+==========================================================================
 Sau khi chạy thành công server Open edX, chúng ta cần phải tạo mới tài khoản người dùng bằng câu lệnh:
 
 .. code-block:: python
@@ -57,7 +60,7 @@ Sau khi chạy thành công server Open edX, chúng ta cần phải tạo mới 
 Ngay sau khi chạy câu lệnh trên, người dùng sẽ được hệ thống yêu cầu cài đặt mật khẩu tương ứng cho tài khoản.
 
 Thêm khóa học trải nghiệm vào hệ thống 
---------------------------------------
+======================================
 Nếu đây là lần đầu chúng ta cài đặt server Open edX, hệ thống lúc này sẽ chưa có bất kỳ một khóa học nào. Để thêm mới một khóa học trải nghiệm mà Open edX đã cung cấp sẵn, chạy câu lệnh:
 
 .. code-block:: python
@@ -65,7 +68,7 @@ Nếu đây là lần đầu chúng ta cài đặt server Open edX, hệ thống
     tutor local do importdemocourse
 
 Cấu hình theme cho hệ thống
----------------------------
+===========================
 Theme mặc định của Open edX khá là “nhạt nhẽo”, vì vậy chúng ta có thể thay đổi theme bằng câu lệnh sau:
 
 .. code-block:: python
