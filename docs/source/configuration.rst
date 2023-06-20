@@ -1,4 +1,4 @@
-.. _rst-cheatsheet-alpha:
+.. _introduce-alpha
 
 =========================
 Cài đặt và chạy Open edX
