@@ -22,6 +22,7 @@ Tiến hành cài đặt
 Chạy Open edX
 -------------
 Sau khi cài đặt thành công, chạy Open edX bằng câu lệnh: 
+
 .. code-block:: python
 
     tutor local launch
@@ -37,6 +38,7 @@ Toàn bộ quá trình trên  có thể mất tới 10 phút trên một máy ch
 Tạo mới tài khoản người dùng với quyền truy cập nhân viên và quản trị viên
 --------------------------------------------------------------------------
 Sau khi chạy thành công server Open edX, chúng ta cần phải tạo mới tài khoản người dùng bằng câu lệnh:
+
 .. code-block:: python
 
     tutor local do createuser --staff --superuser yourusername user@email.com
@@ -46,6 +48,7 @@ Ngay sau khi chạy câu lệnh trên, người dùng sẽ được hệ thống
 Thêm khóa học trải nghiệm vào hệ thống 
 --------------------------------------
 Nếu đây là lần đầu chúng ta cài đặt server Open edX, hệ thống lúc này sẽ chưa có bất kỳ một khóa học nào. Để thêm mới một khóa học trải nghiệm mà Open edX đã cung cấp sẵn, chạy câu lệnh:
+
 .. code-block:: python
 
     tutor local do importdemocourse
@@ -53,6 +56,7 @@ Nếu đây là lần đầu chúng ta cài đặt server Open edX, hệ thống
 Cấu hình theme cho hệ thống
 ---------------------------
 Theme mặc định của Open edX khá là “nhạt nhẽo”, vì vậy chúng ta có thể thay đổi theme bằng câu lệnh sau:
+
 .. code-block:: python
 
     tutor local do settheme mytheme
