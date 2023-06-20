@@ -2,8 +2,8 @@
 CÀI ĐẶT VÀ XÂY DỰNG OPEN EDX
 =============================
 
-Contents
---------
+Nội dung đề cập trong bài viết
+==============================
 
 .. toctree::
 
