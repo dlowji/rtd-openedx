@@ -1,6 +1,16 @@
 Cài đặt Tutor
 =============
 
+Contents
+--------
+
+.. toctree::
+   Yêu cầu trước khi cài đặt
+   Tiến hành cài đặt
+   Tạo mới tài khoản người dùng với quyền truy cập nhân viên và quản trị viên
+   Thêm khóa học trải nghiệm vào hệ thống 
+   Cấu hình theme cho hệ thống
+
 Yêu cầu trước khi cài đặt
 -------------------------
  * Hệ điều hành được hỗ trợ: Tutor chạy tốt trên các hệ điều hành dựa trên UNIX 64-Bit. Tutor cũng có thể hoạt động tốt trên Windows (với `WSL 2 <https://learn.microsoft.com/en-us/windows/wsl/install>`_).
