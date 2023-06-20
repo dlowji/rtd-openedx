@@ -1,7 +1,9 @@
+=========================
 Cài đặt và chạy Open edX
 =========================
-Contents
---------
+
+.. contents::
+   :local:
 
 .. toctree::
    Phiên bản phần mềm
@@ -13,7 +15,7 @@ Trước khi cài đặt Open edX, chúng ta cần phải xác định:
   * **Phương thức cài đặt**
 
 Phiên bản phần mềm
--------------------
+==================
 Hiện tại Open edX cung cấp 2 lựa chọn về phiên bản:
  * **Master**, có thể hiểu là phiên bản mã nguồn mới nhất, thậm chí còn mới hơn cả phiên bản mã nguồn mà tên miền `edx.org <https://www.edx.org/>`_ đang chạy ổn định.
  * **Release** là phiên bản mã nguồn được đánh dấu và thử nghiệm cho mục đích sử dụng rộng rãi. Các phiên bản này được đặt tên theo thứ tự bảng chữ cái tên các loài cây: Juniper, Koa, Lilac, ...
@@ -22,7 +24,7 @@ Hiện tại Open edX cung cấp 2 lựa chọn về phiên bản:
 Ở đây chúng ta chỉ nên cân nhắc chọn phiên bản **Master** trong trường hợp cần điều chỉnh và phát triển tiếp mã nguồn hoặc chúng ta cần một tính năng hoặc bản sửa lỗi mới nhưng chưa được chính thức áp dụng cho phía người dùng.
 
 Phương thức cài đặt
--------------------
+===================
 Các phương thức cài đặt hiện đang được Open edX hỗ trợ là:
  * **Tutor**: Một môi trường dựa trên `Docker <https://www.docker.com/>`_ được cộng đồng hỗ trợ phù hợp cho môi trường production và development.
  * **Native**: Cung cấp phương thức cài đặt sẵn sàng để đẩy lên môi trường production bằng cách sử dụng Ansible Playbook.
