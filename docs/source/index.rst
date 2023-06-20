@@ -6,6 +6,7 @@ Contents
 --------
 
 .. toctree::
+
    Giới thiệu về LMS
    Giới thiệu về Open edX
    Cài đặt và chạy Open edX
