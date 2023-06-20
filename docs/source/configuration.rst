@@ -1,4 +1,4 @@
-.. _introduce-alpha
+.. _configuration-alpha
 
 =========================
 Cài đặt và chạy Open edX
@@ -10,7 +10,7 @@ Cài đặt và chạy Open edX
 .. toctree::
    Phiên bản phần mềm
    Phương thức cài đặt
-   Cài đặt Open edX bằng Tutor
+   Cài đặt Open edX bằng Tutor :ref:`introduce-alpha`
 
 Trước khi cài đặt Open edX, chúng ta cần phải xác định:
   * **Phiên bản phần mềm**
