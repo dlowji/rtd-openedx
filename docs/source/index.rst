@@ -9,7 +9,7 @@ CÀI ĐẶT VÀ XÂY DỰNG OPEN EDX
 
    Giới thiệu về LMS
    Giới thiệu về Open edX
-   Cài đặt và chạy Open edX :ref:`introduce-alpha` ahead.
+   Cài đặt và chạy Open edX :ref:`introduce-alpha`.
    Tổng kết
 
 Giới thiệu về LMS
