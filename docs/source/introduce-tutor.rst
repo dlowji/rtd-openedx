@@ -6,7 +6,6 @@ Cài đặt Open edX bằng Tutor
    :local:
 
 .. toctree::
-   :maxdepth: 2
 
    Cài đặt Anaconda
    Cài đặt Tutor
