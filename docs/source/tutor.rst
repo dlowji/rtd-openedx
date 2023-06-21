@@ -1,4 +1,4 @@
-.. _tutor:
+.. _tutor-settingup:
 
 Cài đặt Tutor
 =============
