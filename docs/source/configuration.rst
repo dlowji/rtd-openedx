@@ -7,6 +7,8 @@ Trước khi cài đặt Open edX, chúng ta cần phải xác định:
   * **Phương thức cài đặt**
 
 .. toctree::
+   :hidden:
+
    tutor
 
 Phiên bản phần mềm
