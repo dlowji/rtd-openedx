@@ -1,4 +1,4 @@
-.. _rst-cheatsheet-alpha:
+.. _tutor:
 
 =============
 Cài đặt Tutor
