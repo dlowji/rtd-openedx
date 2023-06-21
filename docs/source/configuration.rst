@@ -1,4 +1,4 @@
-.. _configuration-alpha:
+.. _rtd-configuration-alpha:
 
 =========================
 Cài đặt và chạy Open edX
