@@ -3,6 +3,9 @@
 Cài đặt Tutor
 =============
 
+.. toctree::
+    anaconda
+
 Yêu cầu trước khi cài đặt
 -------------------------
  * Hệ điều hành được hỗ trợ: Tutor chạy tốt trên các hệ điều hành dựa trên UNIX 64-Bit. Tutor cũng có thể hoạt động tốt trên Windows (với `WSL 2 <https://learn.microsoft.com/en-us/windows/wsl/install>`_).
