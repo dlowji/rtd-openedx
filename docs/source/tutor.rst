@@ -1,7 +1,7 @@
 .. _tutor-settingup:
 
-Cài đặt Tutor
-=============
+Cài đặt hệ thống Open edX bằng Tutor
+====================================
 
 .. toctree:: :hidden:
 
@@ -24,40 +24,45 @@ Yêu cầu trước khi cài đặt
 
 .. note::
 
-   Chúng tôi khuyến khích nên cài đặt Tutor bằng việc sử dụng môi trường ảo Python. Một môi trường ảo là công cụ cho phép chúng ta lưu trữ các dependencies theo yêu cầu của các dự án khác nhau ở nhiều nơi riêng biệt.
+   Chúng tôi khuyến khích nên cài đặt Tutor bằng việc sử dụng môi trường ảo Python. Một môi trường ảo là công cụ cho phép chúng ta lưu trữ các thành phần phụ thuộc theo yêu cầu của từng dự án khác nhau ở nhiều nơi riêng biệt.
    
-   Bằng việc sử dụng môi trường ảo, chúng ta có thể cài đặt các gói và thư viện cần thiết mà không gây xung đột với các phiên bản và môi trường Python khác trên hệ thống. Điều này giúp đảm bảo rằng Open edX và các thành phần liên quan của phần mềm sẽ hoạt động đúng cách và không ảnh hưởng đến các ứng dụng khác trên máy tính. Bên cạnh đó, môi trường ảo hỗ trợ nhiều nền tảng khác nahu bao gồm Windows, macOS và Linux. Điều này giúp đơn giản hóa quá trình cài đặi và hủy cài đặt Open edX trên các hệ điều hành khác nhau mà không cần lo lắng về sự tương thích.
+   Bằng việc sử dụng môi trường ảo, chúng ta có thể cài đặt các gói và thư viện cần thiết mà không gây xung đột với các phiên bản và môi trường Python khác trên hệ thống. Điều này giúp đảm bảo rằng Open edX và các thành phần liên quan của phần mềm sẽ hoạt động đúng cách và không ảnh hưởng đến các ứng dụng khác trên máy tính. Bên cạnh đó, môi trường ảo hỗ trợ nhiều nền tảng khác nhau bao gồm Windows, macOS và Linux. Điều này giúp đơn giản hóa quá trình cài đặt và gỡ bỏ Open edX trên các hệ điều hành khác nhau mà không cần lo lắng về sự tương thích.
    
-   Trong chuỗi bài viết về Open edX này, chúng tôi sẽ sử dụng môi trường ảo `Anaconda <https://www.anaconda.com/>`_ để cài đặt Tutor. Người đọc có thể tìm hiểu thêm về cách sử dụng Anaconda :ref:`ở đây <anaconda-settingup>`.
+   Trong chuỗi bài viết về Open edX này, chúng tôi sẽ sử dụng môi trường ảo `Anaconda <https://www.anaconda.com/>`_ để cài đặt Tutor. Người đọc có thể tìm hiểu thêm về cách cài đặt và sử dụng Anaconda :ref:`ở đây <anaconda-settingup>`.
 
 Tiến hành cài đặt
 -----------------
+Sau khi đã cài đặt Anaconda và kích hoạt thành công môi trường ảo, lúc này chúng ta có thể cài đặt Tutor bằng câu lệnh sau:
 
-.. code-block:: python
+.. code-block:: console
 
     pip install "tutor[full]"
 
 Chạy Open edX
 -------------
-Sau khi cài đặt thành công, chạy Open edX bằng câu lệnh: 
+Sau khi cài đặt thành công, tiến hành chạy Open edX bằng câu lệnh: 
 
-.. code-block:: python
+.. code-block:: console
 
     tutor local launch
 
-Ngay sau khi chạy câu lệnh trên, chúng ta sẽ được yêu cầu trả lời một số câu hỏi về các thông tin cấu hình cho hệ thống Open edX của mình.
+Ngay sau khi chạy câu lệnh trên, chúng ta sẽ được yêu cầu trả lời một số câu hỏi về các thông tin cấu hình cho hệ thống Open edX của bản thân.
 
-Tiếp đó hệ thống sẽ khởi tạo các file cấu hình. Bắt đầu quá trình tải xuống các Docker image.
+Tiếp đó hệ thống sẽ khởi tạo các file cấu hình, bắt đầu quá trình tải xuống các Docker image.
 
 Kết quả của quá trình trên là một hệ thống Open edX hoàn chỉnh, sẵn sàng cho việc đẩy lên môi trường production (hiện tại mới nhất là phiên bản `Olive <https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/platform_releases/olive.html>`_).
 
-Toàn bộ quá trình trên  có thể mất tới 10 phút trên một máy chủ có băng thông tốt. Lưu ý rằng môi trường host sẽ không bị ảnh hưởng theo bất kỳ cách nào, vì mọi thứ đều chạy bên trong Docker container. 
+Toàn bộ quá trình trên có thể mất tới 10 phút trên một máy chủ có băng thông tốt. 
+
+.. note::
+
+    Môi trường host sẽ không bị ảnh hưởng theo bất kỳ cách nào, vì mọi thứ đều chạy bên trong Docker container. 
 
 Tạo mới tài khoản người dùng với quyền truy cập nhân viên và quản trị viên
 --------------------------------------------------------------------------
 Sau khi chạy thành công server Open edX, chúng ta cần phải tạo mới tài khoản người dùng bằng câu lệnh:
 
-.. code-block:: python
+.. code-block:: console
 
     tutor local do createuser --staff --superuser yourusername user@email.com
 
@@ -67,7 +72,7 @@ Thêm khóa học trải nghiệm vào hệ thống
 --------------------------------------
 Nếu đây là lần đầu chúng ta cài đặt server Open edX, hệ thống lúc này sẽ chưa có bất kỳ một khóa học nào. Để thêm mới một khóa học trải nghiệm mà Open edX đã cung cấp sẵn, chạy câu lệnh:
 
-.. code-block:: python
+.. code-block:: console
 
     tutor local do importdemocourse
 
@@ -75,7 +80,7 @@ Cấu hình theme cho hệ thống
 ---------------------------
 Theme mặc định của Open edX khá là “nhạt nhẽo”, vì vậy chúng ta có thể thay đổi theme bằng câu lệnh sau:
 
-.. code-block:: python
+.. code-block:: console
 
     tutor local do settheme mytheme
 
