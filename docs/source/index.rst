@@ -14,6 +14,12 @@ Các khóa học trên edX được cấu trúc thành các chuỗi học tập 
 .. note::
    Việc triển khai và vận hành nền tảng edX yêu cầu các kiến thức và kỹ năng lập trình nhất định để khai thác hiệu quả trong hoạt động dạy học. Chúng tôi tiến hành biên soạn một chuỗi các bài blog với mục tiêu hướng dẫn người dùng, lập trình viên, người quản trị hệ thống thông tin khai thác edX một cách hiệu quả. Trong chuỗi bài viết này, chúng tôi sẽ trình bày các chủ đề liên quan đến cài đặt, triển khai và vận hành edX. Các chuỗi bài viết tiếp theo sẽ tập trung vào hướng dẫn người dạy, người học khai thác nền tảng edX.
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Đọc tiếp:
+
+   configuration
+
 Tổng kết
 --------
 LMS (Learning Management System) là một hệ thống quản lý học tập trực tuyến được sử dụng để tổ chức và cung cấp các khóa học trực tuyến. Một trong những hệ thống LMS phổ biến và mạnh mẽ là Open edX.
@@ -25,9 +31,3 @@ Sau khi cài đặt thành công, bạn có thể tạo tài khoản người d�
 Cuối cùng, bạn có thể tùy chỉnh giao diện và cấu hình chủ đề cho hệ thống của mình. Open edX cung cấp các công cụ và tài liệu hướng dẫn để bạn có thể tùy chỉnh giao diện theo ý muốn, đồng thời đảm bảo thể hiện đúng nhận diện thương hiệu của tổ chức hoặc trường học.
 
 Với việc thực hiện các bước trên, bạn có thể bắt đầu xây dựng và triển khai các khóa học trực tuyến trên hệ thống Open edX của mình
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Đọc tiếp:
-
-   configuration
