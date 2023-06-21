@@ -9,9 +9,11 @@ CÀI ĐẶT VÀ XÂY DỰNG OPEN EDX
 
    Giới thiệu về LMS
    Giới thiệu về Open edX
-   Cài đặt và chạy Open edX :ref:`rtd-configuration-alpha`
-   Tổng kết
 
+   :ref:`rtd-configuration-alpha`
+
+   Tổng kết
+.. include:: configuration.rst
 Giới thiệu về LMS
 =================
 See also :ref:`rtd-configuration-alpha`
