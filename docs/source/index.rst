@@ -18,6 +18,7 @@ Các khóa học trên edX được cấu trúc thành các chuỗi học tập 
    :caption: Các bài viết liên quan:
 
    configuration
+   xblock_introduction
 
 Tổng kết
 --------
