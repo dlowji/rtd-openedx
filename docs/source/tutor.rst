@@ -3,7 +3,8 @@
 Cài đặt hệ thống Open edX bằng Tutor
 ====================================
 
-.. toctree:: :hidden:
+.. toctree:: 
+    :hidden:
 
     anaconda
 
