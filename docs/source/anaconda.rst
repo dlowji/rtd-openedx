@@ -1,4 +1,4 @@
-.. _anaconda:
+.. _anaconda-settingup:
 
 Sử dụng Anaconda
 ================
