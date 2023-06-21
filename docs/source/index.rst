@@ -23,10 +23,12 @@ Tổng kết
 --------
 LMS (Learning Management System) là một hệ thống quản lý học tập trực tuyến được sử dụng để tổ chức và cung cấp các khóa học trực tuyến. Một trong những hệ thống LMS phổ biến và mạnh mẽ là Open edX.
 
-Open edX là một nền tảng mã nguồn mở cho việc xây dựng và triển khai các khóa học trực tuyến. Để bắt đầu sử dụng Open edX, bạn cần thực hiện các bước cài đặt và chạy hệ thống.
-Trước tiên, bạn cần cài đặt và chạy Open edX trên máy tính của mình. Một trong những phương pháp phổ biến để cài đặt là sử dụng Open edX Bạch mã trên Anaconda. Bằng cách sử dụng công cụ này, bạn có thể dễ dàng tạo và quản lý máy chủ Open edX trên máy tính của mình.
+Open edX là một nền tảng mã nguồn mở cho việc xây dựng và triển khai các khóa học trực tuyến. Để bắt đầu sử dụng Open edX, người đọc cần thực hiện các bước cài đặt và chạy hệ thống.
 
-Sau khi cài đặt thành công, bạn có thể tạo tài khoản người dùng mới trên hệ thống Open edX và nhập khẩu khóa học demo để kiểm tra và thử nghiệm.
-Cuối cùng, bạn có thể tùy chỉnh giao diện và cấu hình chủ đề cho hệ thống của mình. Open edX cung cấp các công cụ và tài liệu hướng dẫn để bạn có thể tùy chỉnh giao diện theo ý muốn, đồng thời đảm bảo thể hiện đúng nhận diện thương hiệu của tổ chức hoặc trường học.
+Bằng cách sử dụng môi trường ảo Anaconda, người dùng, lập trình viên, người quản trị hệ thống thông tin có thể dễ dàng cài đặt và quản lý máy chủ Open edX trên máy tính.
 
-Với việc thực hiện các bước trên, bạn có thể bắt đầu xây dựng và triển khai các khóa học trực tuyến trên hệ thống Open edX của mình
+Sau khi cài đặt thành công, người dùng có thể tạo tài khoản người dùng mới trên hệ thống Open edX và thêm khóa học trải nghiệm đã được cung cấp sẵn để kiểm tra và thử nghiệm.
+
+Cuối cùng, người dùng có thể tùy chỉnh giao diện và chủ đề cho hệ thống. Open edX cung cấp các công cụ và tài liệu hướng dẫn để tùy chỉnh giao diện theo ý muốn, đồng thời đảm bảo thể hiện chính xác đặc trưng thương hiệu của tổ chức hoặc trường học đang quản lý hệ thống.
+
+Với việc thực hiện các bước trên, người đọc có thể bắt đầu xây dựng và triển khai các khóa học trực tuyến trên hệ thống Open edX của bản thân.
