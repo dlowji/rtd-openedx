@@ -19,7 +19,7 @@ Yêu cầu trước khi cài đặt
    
    Bằng việc sử dụng môi trường ảo, chúng ta có thể cài đặt các gói và thư viện cần thiết mà không gây xung đột với các phiên bản và môi trường Python khác trên hệ thống. Điều này giúp đảm bảo rằng Open edX và các thành phần liên quan của phần mềm sẽ hoạt động đúng cách và không ảnh hưởng đến các ứng dụng khác trên máy tính. Bên cạnh đó, môi trường ảo hỗ trợ nhiều nền tảng khác nahu bao gồm Windows, macOS và Linux. Điều này giúp đơn giản hóa quá trình cài đặi và hủy cài đặt Open edX trên các hệ điều hành khác nhau mà không cần lo lắng về sự tương thích.
    
-   Trong chuỗi bài viết về Open edX này, chúng tôi sẽ :ref:`sử dụng Anaconda <anaconda-settingup>`. Người đọc có thể tìm hiểu thêm về Anaconda `ở đây <https://www.anaconda.com/>`_.
+   Trong chuỗi bài viết về Open edX này, chúng tôi sẽ sử dụng môi trường ảo `Anaconda <https://www.anaconda.com/>`_ để cài đặt Tutor. Người đọc có thể tìm hiểu thêm về cách sử dụng Anaconda :ref:`ở đây <anaconda-settingup>.
 
 Tiến hành cài đặt
 -----------------
