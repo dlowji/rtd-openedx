@@ -37,8 +37,6 @@ Việc chọn phương thức cài đặt tùy thuộc vào mục đích của c
     * Biết sử dụng command line terminal để thực hiện các tác vụ.
     * Có khả năng chẩn đoán và giải quyết vấn đề xảy ra với phần mềm hệ thống.
 
-Cài đặt Open edX bằng Tutor
----------------------------
 Trong phạm vi bài viết này, chúng tôi sẽ :ref:`cài đặt hệ thống Open edX bằng Tutor <tutor-settingup>`. `Tutor <https://docs.tutor.overhang.io/>`_ là bản phân phối hay phần mềm từ Open edX phát triển cho người dùng cuối dựa trên nền Docker, cho cả môi trường production và phát triển cục bộ trên máy tính của chúng ta. Mục tiêu của Tutor là giúp dễ dàng triển khai, tùy chỉnh, nâng cấp và mở rộng Open edX. Tutor đáng tin cậy, nhanh chóng, có thể mở rộng và phương thức này đã được sử dụng để triển khai hàng trăm nền tảng Open edX trên khắp thế giới.
 
 Một số tính năng, đặc điểm nổi bật của Tutor mà chúng tôi đã cân nhắc để sử dụng phương thức này cho việc cài đặt Open edX:
