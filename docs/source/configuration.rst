@@ -6,6 +6,9 @@ Trước khi cài đặt Open edX, chúng ta cần phải xác định:
   * **Phiên bản phần mềm**
   * **Phương thức cài đặt**
 
+.. toctree::
+   tutor
+
 Phiên bản phần mềm
 -------------------
 Hiện tại Open edX cung cấp 2 lựa chọn về phiên bản:
