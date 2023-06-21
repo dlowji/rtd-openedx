@@ -1,4 +1,4 @@
-CÀI ĐẶT VÀ XÂY DỰNG OPEN EDX
+CÀI ĐẶT VÀ TRIỂN KHAI OPEN EDX
 =============================
 
 Giới thiệu về LMS
