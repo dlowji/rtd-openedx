@@ -3,7 +3,8 @@
 Cài đặt Tutor
 =============
 
-.. toctree::
+.. toctree:: :hidden:
+
     anaconda
 
 Yêu cầu trước khi cài đặt
