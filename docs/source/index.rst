@@ -18,8 +18,7 @@ Các khóa học trên edX được cấu trúc thành các chuỗi học tập 
    :caption: Các bài viết liên quan:
 
    configuration
-   xblock_introduction
-
+   
 Tổng kết
 --------
 LMS (Learning Management System) là một hệ thống quản lý học tập trực tuyến được sử dụng để tổ chức và cung cấp các khóa học trực tuyến. Một trong những hệ thống LMS phổ biến và mạnh mẽ là Open edX.
