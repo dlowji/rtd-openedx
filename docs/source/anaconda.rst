@@ -24,11 +24,11 @@ Sau khi cài đặt thành công, bước tiếp theo chúng ta cần tạo mộ
 
 Tạo mới môi trường ảo
 ---------------------
-Để tạo một môi trường ảo mới có tên là py3.10, đồng thời cài đặt python phiên bản 3.10.6, ta sử dụng câu lệnh:
+Để tạo một môi trường ảo mới có tên là py310, đồng thời cài đặt python phiên bản 3.10.6, ta sử dụng câu lệnh:
 
 .. code-block:: console
 
-    conda create –-name py3.10 python=3.10.6
+    conda create –-name py310 python=3.10.6
 
 Nếu muốn tìm hiểu thêm về các câu lệnh được sử dụng trong Anaconda, người đọc có thể tham khảo `tại đây <https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf>`_.
 
@@ -38,9 +38,9 @@ Sau khi đã tạo mới thành công, để có thể sử dụng môi trườn
 
 .. code-block:: console
 
-    conda activate py35
+    conda activate py310
 
 .. note:: 
-    py35 ở đây chính là tên của môi trường mà chúng ta đã tạo ở trên.
+    py310 ở đây chính là tên của môi trường mà chúng ta đã tạo ở trên.
 
     Khi môi trường đã được kích hoạt, Anaconda Prompt sẽ hiển thị tên của môi trường vừa được kích hoạt nằm trong cặp ngoặc đơn.
