@@ -66,3 +66,4 @@ Các bài đăng trên Website sẽ được đăng tải và cập nhật thư�
 .. toctree:: :hidden:
 
 	edx-introduce
+	anaconda
