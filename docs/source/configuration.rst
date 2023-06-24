@@ -13,18 +13,18 @@ Hiện tại Open edX cung cấp 2 lựa chọn về phiên bản:
  * **Release** là phiên bản mã nguồn được đánh dấu và thử nghiệm cho mục đích sử dụng rộng rãi. Các phiên bản này được đặt tên theo thứ tự bảng chữ cái tên các loài cây: Juniper, Koa, Lilac, ...
 
 .. note:: 
-Ở đây chúng ta chỉ nên cân nhắc chọn phiên bản **Master** trong trường hợp cần điều chỉnh và phát triển tiếp mã nguồn hoặc chúng ta cần một tính năng hoặc bản sửa lỗi mới nhưng chưa được chính thức áp dụng cho phía người dùng.
+Độc giả chỉ nên cân nhắc chọn phiên bản Master trong trường hợp có nhu cầu điều chỉnh và phát triển mã nguồn hoặc khi cần trải nghiệm tính năng/ bản sửa lỗi mới nhưng chưa được chính thức áp dụng ở phía người dùng cuối.
 
 Phương thức cài đặt
 -------------------
 Các phương thức cài đặt hiện đang được Open edX hỗ trợ là:
  * **Tutor**: Một môi trường dựa trên `Docker <https://www.docker.com/>`_ được cộng đồng hỗ trợ phù hợp cho môi trường production và development.
- * **Native**: Cung cấp phương thức cài đặt sẵn sàng để đẩy lên môi trường production bằng cách sử dụng Ansible Playbook.
+ * **Native**: Cung cấp phương thức cài đặt có thể được dùng cho cả phiên bản **Master** và **Release**, hệ thống sau khi được cài đặt sẵn sàng đẩy lên môi trường production cho mục đích kiểm thử.
  * **Devstack**: Môi trường phát triển dựa trên `Docker <https://www.docker.com/>`_, sẽ hữu ích nếu chúng ta muốn sữa đổi mã nguồn Open edX trên các thiết bị cục bộ, chẳng hạn như máy tính cá nhân hoặc máy chủ trong mạng nội bộ.
 Việc chọn phương thức cài đặt tùy thuộc vào mục đích của chúng ta:
 
    =============================================== ========= ==================
-   Mục đích/Kịch bản                               Phiên bản Lựa chọn
+   Mục đích/Kịch bản                               Phiên bản Phương thức
    =============================================== ========= ==================
    Chạy môi trường production                      Release   Tutor hoặc Native
    Cài đặt môi trường kiểm thử tương tự production Release   Tutor hoặc Native
@@ -33,7 +33,7 @@ Việc chọn phương thức cài đặt tùy thuộc vào mục đích của c
    =============================================== ========= ==================
 .. note::
    **Lưu ý rằng tất cả các phương thức cài đặt đều yêu cầu một số kỹ năng nền tảng:**
-    * Kiến thức cơ bản đối với hệ điều hành bạn đã chọn để cài đặt.
+    * Kiến thức cơ bản đối với hệ điều hành đã cài đặt.
     * Biết sử dụng command line terminal để thực hiện các tác vụ.
     * Có khả năng chẩn đoán và giải quyết vấn đề xảy ra với phần mềm hệ thống.
 
