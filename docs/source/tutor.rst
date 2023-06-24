@@ -96,7 +96,3 @@ Với việc thực hiện các bước trên, người đọc có thể bắt �
 
 Trong các bài viết tiếp theo, chúng tôi sẽ làm rõ về kiến trúc và cách phát triển XBlock, một công cụ hỗ trợ tùy chỉnh các bài giảng của người học và người dạy. 
 
-
-.. toctree:: :hidden:
-
-    anaconda
