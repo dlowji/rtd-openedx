@@ -65,7 +65,7 @@ Các bài đăng trên Website sẽ được đăng tải và cập nhật thư�
 
 .. toctree::
    :maxdepth: 2
-   :caption:Tài liệu hướng dẫn sử dụng
+   :caption: Tài liệu hướng dẫn sử dụng
 
 	edx-introduce
 	anaconda
