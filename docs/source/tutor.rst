@@ -1,14 +1,7 @@
 .. _tutor-settingup:
 
 Cài đặt Open edX bằng Tutor
-====================================
-
-.. toctree:: 
-    :hidden:
-
-    anaconda
-
-.. _tutor-settingup-requirement:
+===========================
 
 Yêu cầu trước khi cài đặt
 -------------------------
@@ -102,3 +95,8 @@ Cuối cùng, người dùng có thể tùy chỉnh giao diện và theme cho h�
 Với việc thực hiện các bước trên, người đọc có thể bắt đầu xây dựng và triển khai các khóa học trực tuyến trên nền tảng Open edX.
 
 Trong bài tiếp theo, chúng tôi sẽ …
+
+
+.. toctree:: :hidden:
+
+    anaconda
