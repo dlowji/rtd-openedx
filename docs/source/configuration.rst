@@ -9,8 +9,8 @@ Trước khi cài đặt Open edX, chúng ta cần phải xác định:
 Phiên bản phần mềm
 -------------------
 Hiện tại Open edX cung cấp 2 lựa chọn về phiên bản:
- * **Master**, có thể hiểu là phiên bản mã nguồn mới nhất, thậm chí còn mới hơn cả phiên bản mã nguồn mà tên miền `edx.org <https://www.edx.org/>`_ đang chạy ổn định.
- * **Release** là phiên bản mã nguồn được đánh dấu và thử nghiệm cho mục đích sử dụng rộng rãi. Các phiên bản này được đặt tên theo thứ tự bảng chữ cái tên các loài cây: Juniper, Koa, Lilac, ...
+ * **Master**: có thể hiểu là phiên bản mã nguồn mới nhất, thậm chí còn mới hơn cả phiên bản mã nguồn mà tên miền `edx.org <https://www.edx.org/>`_ đang chạy ổn định.
+ * **Release**: là phiên bản mã nguồn được đánh dấu và thử nghiệm cho mục đích sử dụng rộng rãi. Các phiên bản này được đặt tên theo thứ tự bảng chữ cái tên các loài cây: Juniper, Koa, Lilac, ...
 
 .. note:: 
 
