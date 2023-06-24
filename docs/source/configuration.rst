@@ -13,7 +13,8 @@ Hiện tại Open edX cung cấp 2 lựa chọn về phiên bản:
  * **Release** là phiên bản mã nguồn được đánh dấu và thử nghiệm cho mục đích sử dụng rộng rãi. Các phiên bản này được đặt tên theo thứ tự bảng chữ cái tên các loài cây: Juniper, Koa, Lilac, ...
 
 .. note:: 
-Độc giả chỉ nên cân nhắc chọn phiên bản Master trong trường hợp có nhu cầu điều chỉnh và phát triển mã nguồn hoặc khi cần trải nghiệm tính năng/ bản sửa lỗi mới nhưng chưa được chính thức áp dụng ở phía người dùng cuối.
+
+   Độc giả chỉ nên cân nhắc chọn phiên bản Master trong trường hợp có nhu cầu điều chỉnh và phát triển mã nguồn hoặc khi cần trải nghiệm tính năng/ bản sửa lỗi mới nhưng chưa được chính thức áp dụng ở phía người dùng cuối.
 
 Phương thức cài đặt
 -------------------
