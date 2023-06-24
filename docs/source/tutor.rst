@@ -88,3 +88,17 @@ Theme (chủ đề/giao diện chính) của Open edX có thể được tùy ch
     tutor local do settheme mytheme
 
 Ngoài ra, Open edX cũng phát triển `Indigo <https://github.com/overhangio/tutor-indigo>`_, một mã nguồn mở có thể tùy chỉnh theme với Tutor.
+
+Tổng kết
+--------
+LMS (Learning Management System) là một hệ thống quản lý dạy học trực tuyến được sử dụng để tổ chức và cung cấp các khóa học trực tuyến. Một trong những hệ thống LMS phổ biến và mạnh mẽ là Open edX.
+
+Bằng cách sử dụng môi trường ảo Anaconda, người dùng, lập trình viên, người quản trị hệ thống thông tin có thể dễ dàng cài đặt và quản lý máy chủ Open edX.
+
+Sau khi cài đặt thành công, người dùng có thể tạo tài khoản mới trên hệ thống Open edX và thêm khóa học trải nghiệm đã được cung cấp sẵn để kiểm tra và thử nghiệm.
+
+Cuối cùng, người dùng có thể tùy chỉnh giao diện và theme cho hệ thống. Open edX cung cấp các công cụ để tùy chỉnh giao diện theo ý muốn, đồng thời đảm bảo thể hiện chính xác các đặc trưng thương hiệu của những đơn vị đang quản lý hệ thống như tổ chức hoặc trường học.
+
+Với việc thực hiện các bước trên, người đọc có thể bắt đầu xây dựng và triển khai các khóa học trực tuyến trên nền tảng Open edX.
+
+Trong bài tiếp theo, chúng tôi sẽ …
