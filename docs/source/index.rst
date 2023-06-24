@@ -62,3 +62,7 @@ Dự án này được cung cấp miễn phí cho cộng đồng bởi nhóm tá
 Đăng ký theo dõi
 ----------------
 Các bài đăng trên Website sẽ được đăng tải và cập nhật thường xuyên. Bạn đọc hãy đăng ký theo dõi chúng tôi qua địa chỉ email, bằng cách ghi nhận thông tin theo biểu mẫu `tại đây <https://www.google.com/>`_.
+
+.. toctree:: :hidden:
+
+	edx-introduce
