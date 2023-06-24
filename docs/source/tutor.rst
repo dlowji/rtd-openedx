@@ -94,7 +94,7 @@ Cuối cùng, người dùng có thể tùy chỉnh giao diện và theme cho h�
 
 Với việc thực hiện các bước trên, người đọc có thể bắt đầu xây dựng và triển khai các khóa học trực tuyến trên nền tảng Open edX.
 
-Trong bài tiếp theo, chúng tôi sẽ …
+Trong các bài viết tiếp theo, chúng tôi sẽ làm rõ về kiến trúc và cách phát triển XBlock, một công cụ hỗ trợ tùy chỉnh các bài giảng của người học và người dạy. 
 
 
 .. toctree:: :hidden:
