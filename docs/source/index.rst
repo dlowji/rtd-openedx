@@ -67,9 +67,9 @@ Các bài đăng trên Website sẽ được đăng tải và cập nhật thư�
 
 .. toctree::
 	:maxdepth: 2
+	:hidden: 
 	:caption: Tài liệu hướng dẫn sử dụng
 
+	`Giới thiệu LMS <lms-introduce>`_
 	edx-introduce
 	anaconda
-	lms-introduce
-	index
