@@ -70,6 +70,6 @@ Các bài đăng trên Website sẽ được đăng tải và cập nhật thư�
 	:hidden: 
 	:caption: Tài liệu hướng dẫn sử dụng
 
-	`Giới thiệu LMS <lms-introduce>`_
+	:ref:`Giới thiệu LMS <lms-introduce>`
 	edx-introduce
 	anaconda
