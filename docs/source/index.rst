@@ -1,17 +1,18 @@
+
+.. raw:: html
+
+   <meta property="og:title" content="Homepage | Dương Hữu Phúc [Phuc H. Duong]" />
+
 TÀI LIỆU HƯỚNG DẪN CÀI ĐẶT VÀ TRIỂN KHAI OPEN EDX
 =================================================
 
 .. meta::
    :keywords: Dương Hữu Phúc, Duong Huu Phuc, Phuc H. Duong, Ton Duc Thang University
 
-.. raw:: html
-
-   <meta property="og:title" content="Homepage | Dương Hữu Phúc [Phuc H. Duong]" />
-
 
 .. _lms-introduce:
 
-Giới thiệu về LMS
+Giới thiệu về LMS 123
 -----------------
 Hệ thống quản lý dạy-học (**Learning Management System - LMS**) là phần mềm được sử dụng để quản lý các hoạt động dạy-học trên môi trường số, chẳng hạn, hỗ trợ cung cấp và quản lý các khóa học, chương trình đào tạo, tài nguyên dạy-học, theo dõi tiến độ dạy-học. Bên cạnh đó, LMS còn cho phép người dùng tương tác và giao tiếp với nhau thông qua diễn đàn, tin nhắn, và hỗ trợ đánh giá kết quả học tập và xuất báo cáo đánh giá tự động.
 
