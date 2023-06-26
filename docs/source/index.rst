@@ -1,6 +1,11 @@
 TÀI LIỆU HƯỚNG DẪN CÀI ĐẶT VÀ TRIỂN KHAI OPEN EDX
 =================================================
 
+.. meta::
+   :name: keywords
+   :contents: Dương Hữu Phúc, Duong Huu Phuc, Phuc H. Duong, Ton Duc Thang University
+
+
 .. _lms-introduce:
 
 Giới thiệu về LMS
