@@ -1,7 +1,5 @@
 
-.. raw:: html
-
-      .. include:: extra-meta.html
+.. include:: extra-meta.html
 
 TÀI LIỆU HƯỚNG DẪN CÀI ĐẶT VÀ TRIỂN KHAI OPEN EDX
 =================================================
