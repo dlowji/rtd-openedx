@@ -1,16 +1,10 @@
 
 .. raw:: html
 
-      <head>
-	<meta property="og:title" content="Homepage | Dương Hữu Phúc [Phuc H. Duong]" />
-      </head>
+      .. include:: extra-meta.html
 
 TÀI LIỆU HƯỚNG DẪN CÀI ĐẶT VÀ TRIỂN KHAI OPEN EDX
 =================================================
-
-.. meta::
-   :keywords: Dương Hữu Phúc, Duong Huu Phuc, Phuc H. Duong, Ton Duc Thang University
-
 
 .. _lms-introduce:
 
