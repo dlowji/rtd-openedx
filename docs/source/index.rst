@@ -1,8 +1,6 @@
 
 .. raw:: html
 
-   .. container:: raw-html
-
       <head>
 	<meta property="og:title" content="Homepage | Dương Hữu Phúc [Phuc H. Duong]" />
       </head>
